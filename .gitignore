@@ -1,0 +1,35 @@
+# Excluir el archivo .env
+.env
+
+# Excluir archivos binarios y ejecutables
+bin/
+*.exe
+*.out
+
+# Excluir directorio de dependencias de Go
+vendor/
+
+# Excluir archivos de configuración local
+*.local
+
+# Excluir archivos de log
+*.log
+
+# Excluir archivos de configuración de IDE
+.idea/
+.vscode/
+
+# Excluir archivos generados por Go
+*.test
+*.prof
+
+# Excluir archivos de cobertura
+coverage.out
+
+# Excluir archivos de módulos de Go
+go.sum
+go.mod
+
+# Excluir directorio de caché de Go
+/.go/
+/pkg/
