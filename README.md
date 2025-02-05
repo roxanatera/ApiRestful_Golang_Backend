@@ -18,12 +18,7 @@ Características Destacadas:
 ✅ Endpoints CRUD Completo:
 •	Operaciones básicas: Crear (POST), Leer (GET), Actualizar (PUT), Eliminar (DELETE).
 •	Ejemplo:
-bash
-Copy
-GET    /api/v1/RutaGet
-POST   /api/v1/RutaPost
-PUT    /api/v1/RutaPut/{id}
-DELETE /api/v1/RutaDelete/{id}
+
 ✅ Manejo de Parámetros en Rutas:
 •	Uso de {id} para rutas dinámicas (ej: /api/v1/RutaPath/123).
 •	Extracción de parámetros con chi.URLParam.
